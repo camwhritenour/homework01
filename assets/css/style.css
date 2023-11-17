@@ -1,13 +1,16 @@
+/* Rules for all elements. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set background color for the page. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Rules for the header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Keeps the navbar inline with the heading. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the color of 'seo' in the heading. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Separates the heading from the navbar. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Removes bullet points from the list. */
 .header div ul {
     list-style-type: none;
 }
 
+/* Makes the list appear in a column and adds spacing from the left side of the page. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Rules for the navbar links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Font size for paragraph text. */
 p {
     font-size: 16px;
 }
 
+/* Rules for the main picture. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Image placement. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Image placement. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Keeps the sidebar inline with the main section. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Rules for the whole sidebar box*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,7 +101,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Rules for the text color and spacing of sections in the sidebar. Start */
+/* Rules for the text color and spacing of each section in the sidebar. Start */
 
 .benefit-lead {
     margin-bottom: 32px;
